@@ -51,3 +51,48 @@
     width: 100%;
   }
 }
+
+/* MAIN CONTENT */
+
+.frontpage-main-content {
+  display: flex;
+  background: black;
+
+  &__left {
+    width: 66.6%;
+    background: green;
+    margin-left: 0.4rem;
+
+    &--top {
+      background: url("http://na.leagueoflegends.com/sites/default/files/styles/wide_medium/public/upload/article.header.pool_.party_.set_.en_.jpg?itok=QaAKtHvK") no-repeat;
+      background-size: cover;
+      height: 26rem;
+    }
+
+    &--btm {
+      height: 13rem;
+    }
+
+  }
+
+  &__right {
+    background: red;
+    width: 33.3%;
+    margin-right: 0.4rem;
+
+    &--top {
+      background: blue;
+      height: 13rem;
+    }
+
+    &--mid {
+      background: yellow;
+      height: 13rem;
+    }
+
+    &--btm {
+      background: orange;
+      height: 13rem;
+    }
+  }
+}
