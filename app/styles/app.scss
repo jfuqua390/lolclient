@@ -1,5 +1,35 @@
 @import "yoga";
+@import "frontpage";
 
 // Uncomment this for working with yoga prototyping
 // http://rtablada.github.io/yoga-sass/#mixin-yoga-prototype
 // @include yoga-prototype();
+
+body {
+  margin: 0;
+  // background-color: black;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.top-right-btns {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: white;
+
+  &__item {
+    border: 1px solid white;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
